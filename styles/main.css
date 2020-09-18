@@ -1,0 +1,21 @@
+
+div p {font-family: 'Anton', sans-serif;}
+p {font-family: 'Abril Fatface', cursive;}
+
+
+* {color: red;}
+
+@media screen and (min-width: 800px) {
+   *{color: burlywood; }
+}
+
+@media screen and (min-width: 1000px) {
+   *{color: blue; }
+}
+
+/* media queries go at the end!!! b */
+/*
+@media screen and (min-width: 800px) {
+    p {font-family: 'Architects Daughter', cursive;}
+}
+*/
